@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 0 100px;
   text-align: center;
 }
 
@@ -8,6 +8,10 @@ header {
   background-color: #5a0071;
   color: white;
   font-family: sans-serif;
+}
+
+#phrase {
+  overflow-wrap: break-word;
 }
 
 form > input {
@@ -31,17 +35,12 @@ form > button:hover {
 
 #letters {
   margin: 20px auto 0;
-  width: 800px;
 }
 
 .letter {
-  display: inline-block;
-  text-align: center;
-  background-color: #ffc800;
-  vertical-align: bottom;
+  fill: #ffc800;
 }
 
 .new {
-  font-size: 1.5em;
-  color: #ffffff;
+  fill: #ff000f;
 }
